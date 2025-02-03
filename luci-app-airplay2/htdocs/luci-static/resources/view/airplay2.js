@@ -61,10 +61,7 @@ return view.extend({
 		o = s.option(form.Flag, 'enabled', _('Enabled'));
 		o.rmempty = false;
 
-		o = s.option(form.Flag, 'respawn', _('Respawn'));
-		o.rmempty = false;
-
-		o = s.option(form.Value, 'name', _('AirPort Name'));
+		o = s.option(form.Value, 'name', _('Airplay Name'));
 		o.rmempty = false;
 
 		o = s.option(form.ListValue, 'interpolation', _('Interpolation'));

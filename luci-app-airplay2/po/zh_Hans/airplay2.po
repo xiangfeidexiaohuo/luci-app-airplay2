@@ -17,11 +17,8 @@ msgstr "AirPlay 2 是一款简单易用的 AirPlay 音频播放器。"
 msgid "Enabled"
 msgstr "启用"
 
-msgid "Respawn"
-msgstr "进程守护"
-
-msgid "AirPort Name"
-msgstr "AirPort 名称"
+msgid "Airplay Name"
+msgstr "Airplay 名称"
 
 msgid "Interpolation"
 msgstr "音频重采样"
