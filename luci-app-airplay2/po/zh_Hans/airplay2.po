@@ -23,9 +23,6 @@ msgstr "进程守护"
 msgid "AirPort Name"
 msgstr "AirPort 名称"
 
-msgid "Password Auth"
-msgstr "开启密码认证"
-
 msgid "Interpolation"
 msgstr "音频重采样"
 

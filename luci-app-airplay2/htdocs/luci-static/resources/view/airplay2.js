@@ -67,14 +67,6 @@ return view.extend({
 		o = s.option(form.Value, 'name', _('AirPort Name'));
 		o.rmempty = false;
 
-		o = s.option(form.Flag, 'auth', _('Password Auth'));
-		o.rmempty = false;
-
-		o = s.option(form.Value, 'password', _('Password'));
-		o.rmempty = true;
-		o.depends('auth', '1');
-		o.password = true;
-
 		o = s.option(form.ListValue, 'interpolation', _('Interpolation'));
 		o.default = 'basic';
 		o.value('basic', _('Internal Basic Resampler'));
