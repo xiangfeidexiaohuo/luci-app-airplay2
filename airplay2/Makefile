@@ -77,6 +77,8 @@ define Package/airplay2-mini/description
   Minimal version uses mbed TLS and does not include libsoxr and avahi support.
 endef
 
+TARGET_CFLAGS += -std=gnu17
+
 CONFIGURE_ARGS += \
 	--with-alsa \
 	--with-libdaemon \
