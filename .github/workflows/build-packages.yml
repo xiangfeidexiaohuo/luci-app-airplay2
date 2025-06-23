@@ -1,9 +1,8 @@
 name: Build packages
 
 on:
-  push:
-    tags:
-      - v4.**
+  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
@@ -14,6 +13,7 @@ jobs:
       matrix:
         arch:
           - aarch64_generic
+          - aarch64_cortex-a53
           - x86_64
 
     steps:
